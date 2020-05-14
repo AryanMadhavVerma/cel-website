@@ -493,4 +493,67 @@
 		
 	}
 
+#about-us {
+	background: #FFF
+}
+#about-us .title h2 {
+	font-weight: bold;
+	font-size: 3.5em;
+	color: rgba(0, 0, 0, 0.8);
+}
+#about-us .title span {
+	    text-align: center;
+		font-weight: lighter;
+		font-size: 1.33em;
+		color: rgb(109, 108, 108);
+		margin-top: 200px;
+		width: 200px;
+		
+}
+
+.content-one {
+	display: flex;
+	flex-direction: row;
+}
+.content-two {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.image-left ,.content-right {
+	width: 50%;
+}
+
+.image-left img {
+	width: 30em;
+	height: 20em;
+	text-align: right;
+	border: 2px solid rgba(255, 217, 0, 0.801);
+	border-radius: .5em;
+	margin-left: 20px;
+}
+.content-right p {
+	color: rgba(59, 59, 59, 0.432);
+	text-align: left;
+	font-size: 1.6em;
+}
+.image-right ,.content-left {
+	width: 50%;
+}
+
+.image-right img {
+	width: 30em;
+	height: 20em;
+	text-align: right;
+	border: 2px solid rgba(255, 217, 0, 0.801);
+	border-radius: .5em;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.content-left p {
+	color: rgba(59, 59, 59, 0.432);
+	text-align: left;
+	font-size: 1.6em;
+	margin-left: 20px;
+}
+
 
